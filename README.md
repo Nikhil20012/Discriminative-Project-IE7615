@@ -10,7 +10,7 @@ The dataset is the shared class dataset: 73 objects, about 100 photos each, take
 | Milestone | Task | What we built | Best result |
 |---|---|---|---|
 | [Milestone 1](milestone1/README.md) | Single-object classification: given one image, predict its Object ID | A custom CNN, MobileNetV3-Large and ResNet-50, plus augmentation, Optuna tuning and seed experiments (11 trained models) | ResNet-50: 98.2% test accuracy |
-| [Milestone 2](milestone2/README.md) | Object detection: given an image with several objects, find each one and predict its Object ID and location | A generator that builds multi-object images with labels, and YOLOv8s and YOLOv8m trained on them, plus a stress test with 16 image formats | YOLOv8m: 0.984 test mAP@0.5, about 97% of objects found with the right ID in 3x3 images |
+| [Milestone 2](milestone2/README.md) | Object detection: given an image with several objects, find each one and predict its Object ID and location | A generator that builds multi-object images with labels, and YOLOv8s and YOLOv8m trained on them, plus a stress test with 16 image formats | YOLOv8m: 0.983 test mAP@0.5, about 97% of objects found with the right ID in 3x3 images |
 
 Each milestone folder has its own README with the full details: what we did, how to run it, and the results.
 

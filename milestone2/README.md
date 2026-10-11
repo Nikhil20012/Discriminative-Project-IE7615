@@ -8,7 +8,7 @@ There is no ready-made detection dataset for our objects, so we built one. We to
 
 We then fine-tuned two pretrained YOLOv8 models (YOLOv8s and YOLOv8m) on this dataset, tested them on held-out images, and ran a stress test with 16 different image formats to check how they hold up on the kinds of images we might get on demo day.
 
-Our final model is YOLOv8m. On the test set it gets 0.984 mAP@0.5 and finds about 97% of the objects in 3x3 images with the right Object ID.
+Our final model is YOLOv8m. On the test set it gets 0.983 mAP@0.5 and finds about 97% of the objects in 3x3 images with the right Object ID.
 
 
 ## 1. What the TAs asked for
@@ -134,8 +134,8 @@ python src/evaluate_yolo.py --weights results/detect/yolov8m_v2/weights/best.pt 
 | | YOLOv8s | YOLOv8m |
 |---|---|---|
 | **All test images (500)** | | |
-| mAP@0.5 | 0.986 | 0.984 |
-| mAP@0.5:0.95 | 0.985 | 0.983 |
+| mAP@0.5 | 0.986 | 0.983 |
+| mAP@0.5:0.95 | 0.984 | 0.983 |
 | Precision / recall | 0.982 / 0.962 | 0.977 / 0.964 |
 | Images with every Object ID right | 76.6% | 78.4% |
 | **3x3 images (186)** | | |
