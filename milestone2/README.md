@@ -206,7 +206,7 @@ With post-processing, YOLOv8m still finds 92 to 98% of all objects with the righ
 
 1. **Post-processing helped in every format** for YOLOv8m, by 2.5 to 17.5 points, without retraining.
 2. **YOLOv8m is the more robust model.** It has higher object recall than YOLOv8s in 15 of 16 formats, and with post-processing it has the better image score in 11 of 16 formats and ties in 2 more.
-3. **The weak spots are very small photos and low image quality.** On the 1280x720 canvas each photo ends up about 100 pixels wide after YOLO resizes the image to 640, which is smaller than anything in training. Heavy JPEG compression was never part of training either. Both could be fixed by adding smaller tiles and compressed images to the generator.
+3. **The weak spots are very small photos and low image quality.** On the 1280x720 canvas each photo ends up about 100 pixels wide after YOLO resizes the image to 640, which is near the smallest photo sizes seen in training (the smallest collage photos go down to about 96 pixels). Heavy JPEG compression was never part of training either. Both could be fixed by adding smaller tiles and compressed images to the generator.
 
 
 ## 7. Final model
