@@ -1,0 +1,24 @@
+Downloading: "https://download.pytorch.org/models/mobilenet_v3_large-5c1a4163.pth" to /root/.cache/torch/hub/checkpoints/mobilenet_v3_large-5c1a4163.pth
+  0%|          | 0.00/21.1M [00:00<?, ?B/s]100%|██████████| 21.1M/21.1M [00:00<00:00, 224MB/s]
+[mobilenet] device=cuda classes=73 params=4,295,545
+[mobilenet] epoch 1/20 train_loss=1.3215 train_acc=0.7269 val_loss=0.5339 val_acc=0.8685
+[mobilenet] epoch 2/20 train_loss=0.2461 train_acc=0.9432 val_loss=0.3466 val_acc=0.9002
+[mobilenet] epoch 3/20 train_loss=0.1089 train_acc=0.9790 val_loss=0.2632 val_acc=0.9319
+[mobilenet] epoch 4/20 train_loss=0.1109 train_acc=0.9741 val_loss=0.1843 val_acc=0.9453
+[mobilenet] epoch 5/20 train_loss=0.0488 train_acc=0.9864 val_loss=0.1572 val_acc=0.9511
+[mobilenet] epoch 6/20 train_loss=0.0327 train_acc=0.9924 val_loss=0.1407 val_acc=0.9607
+[mobilenet] epoch 7/20 train_loss=0.0224 train_acc=0.9957 val_loss=0.1242 val_acc=0.9683
+[mobilenet] epoch 8/20 train_loss=0.0161 train_acc=0.9961 val_loss=0.1125 val_acc=0.9645
+[mobilenet] epoch 9/20 train_loss=0.0124 train_acc=0.9984 val_loss=0.1047 val_acc=0.9712
+[mobilenet] epoch 10/20 train_loss=0.0107 train_acc=0.9979 val_loss=0.1067 val_acc=0.9683
+[mobilenet] epoch 11/20 train_loss=0.0094 train_acc=0.9979 val_loss=0.1081 val_acc=0.9664
+[mobilenet] epoch 12/20 train_loss=0.0077 train_acc=0.9984 val_loss=0.1021 val_acc=0.9693
+[mobilenet] epoch 13/20 train_loss=0.0061 train_acc=0.9986 val_loss=0.0989 val_acc=0.9693
+[mobilenet] epoch 14/20 train_loss=0.0062 train_acc=0.9986 val_loss=0.1008 val_acc=0.9702
+[mobilenet] epoch 15/20 train_loss=0.0044 train_acc=0.9992 val_loss=0.0994 val_acc=0.9712
+[mobilenet] epoch 16/20 train_loss=0.0042 train_acc=0.9994 val_loss=0.0978 val_acc=0.9712
+[mobilenet] epoch 17/20 train_loss=0.0032 train_acc=1.0000 val_loss=0.1018 val_acc=0.9712
+[mobilenet] epoch 18/20 train_loss=0.0030 train_acc=0.9998 val_loss=0.1004 val_acc=0.9741
+[mobilenet] epoch 19/20 train_loss=0.0035 train_acc=0.9996 val_loss=0.1001 val_acc=0.9731
+[mobilenet] epoch 20/20 train_loss=0.0034 train_acc=0.9992 val_loss=0.0998 val_acc=0.9741
+[mobilenet] best val_acc=0.9741 at epoch 18, saved results/mobilenet.pt

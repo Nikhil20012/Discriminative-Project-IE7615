@@ -1,0 +1,345 @@
+built 16 scenarios x 40 images in data/stress
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2655.7±566.3 MB/s, size: 166.0 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_plain/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/3x3_plain/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.8s/it 0.5s<3.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 4.6it/s 0.7s
+                   all         40        360      0.976      0.958       0.99      0.989
+Speed: 1.0ms preprocess, 4.6ms inference, 0.0ms loss, 0.7ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '3x3_plain', 'mAP50': np.float64(0.99), 'mAP50_95': np.float64(0.989), 'images': 40, 'image_acc': 0.6, 'recall': 0.961, 'precision': 0.958}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_plain[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1553.2±297.7 MB/s, size: 70.1 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/2x2_plain/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/2x2_plain/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.2s/it 0.3s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 7.0it/s 0.4s
+                   all         40        160      0.923      0.968      0.985      0.981
+Speed: 0.9ms preprocess, 1.1ms inference, 0.0ms loss, 0.8ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '2x2_plain', 'mAP50': np.float64(0.985), 'mAP50_95': np.float64(0.981), 'images': 40, 'image_acc': 0.75, 'recall': 0.963, 'precision': 0.939}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/2x2_plain[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2697.3±292.9 MB/s, size: 192.2 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_gap_white/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/3x3_gap_white/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.3s/it 0.4s<2.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.4it/s 0.5s
+                   all         40        360       0.97      0.957      0.978      0.978
+Speed: 0.9ms preprocess, 1.1ms inference, 0.0ms loss, 0.9ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '3x3_gap_white', 'mAP50': np.float64(0.978), 'mAP50_95': np.float64(0.978), 'images': 40, 'image_acc': 0.725, 'recall': 0.969, 'precision': 0.978}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_gap_white[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2988.3±408.7 MB/s, size: 199.0 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_gap_black/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/3x3_gap_black/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.3s/it 0.4s<2.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.5it/s 0.5s
+                   all         40        360      0.979      0.947      0.977      0.955
+Speed: 0.9ms preprocess, 1.1ms inference, 0.0ms loss, 1.0ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '3x3_gap_black', 'mAP50': np.float64(0.977), 'mAP50_95': np.float64(0.955), 'images': 40, 'image_acc': 0.7, 'recall': 0.975, 'precision': 0.978}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_gap_black[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1849.2±460.6 MB/s, size: 87.5 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/2x2_gap_white/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/2x2_gap_white/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.1s/it 0.3s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 7.1it/s 0.4s
+                   all         40        160      0.931      0.931      0.984      0.982
+Speed: 0.9ms preprocess, 1.1ms inference, 0.0ms loss, 0.8ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '2x2_gap_white', 'mAP50': np.float64(0.984), 'mAP50_95': np.float64(0.982), 'images': 40, 'image_acc': 0.7, 'recall': 0.956, 'precision': 0.922}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/2x2_gap_white[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1513.7±272.7 MB/s, size: 65.6 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_small_tiles/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/3x3_small_tiles/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.1s/it 0.3s<2.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 7.3it/s 0.4s
+                   all         40        360      0.973      0.937      0.981      0.981
+Speed: 0.9ms preprocess, 1.0ms inference, 0.0ms loss, 0.8ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '3x3_small_tiles', 'mAP50': np.float64(0.981), 'mAP50_95': np.float64(0.981), 'images': 40, 'image_acc': 0.65, 'recall': 0.956, 'precision': 0.966}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_small_tiles[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 3279.1±505.1 MB/s, size: 287.2 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_large_tiles/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/3x3_large_tiles/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.4s/it 0.4s<2.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 5.9it/s 0.5s
+                   all         40        360      0.974      0.956      0.991      0.991
+Speed: 0.9ms preprocess, 1.1ms inference, 0.0ms loss, 0.8ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '3x3_large_tiles', 'mAP50': np.float64(0.991), 'mAP50_95': np.float64(0.991), 'images': 40, 'image_acc': 0.775, 'recall': 0.969, 'precision': 0.967}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_large_tiles[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2166.6±696.2 MB/s, size: 123.0 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/2x2_large_tiles/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/2x2_large_tiles/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.2s/it 0.4s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.8it/s 0.4s
+                   all         40        160      0.917      0.909      0.988      0.984
+Speed: 0.9ms preprocess, 1.1ms inference, 0.0ms loss, 0.8ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '2x2_large_tiles', 'mAP50': np.float64(0.988), 'mAP50_95': np.float64(0.984), 'images': 40, 'image_acc': 0.775, 'recall': 0.95, 'precision': 0.95}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/2x2_large_tiles[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2269.5±346.6 MB/s, size: 148.3 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_on_640_canvas/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/3x3_on_640_canvas/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.2s/it 0.4s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.9it/s 0.4s
+                   all         40        360       0.98      0.942      0.986      0.986
+Speed: 0.8ms preprocess, 1.0ms inference, 0.0ms loss, 0.8ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '3x3_on_640_canvas', 'mAP50': np.float64(0.986), 'mAP50_95': np.float64(0.986), 'images': 40, 'image_acc': 0.7, 'recall': 0.967, 'precision': 0.967}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_on_640_canvas[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2565.3±570.4 MB/s, size: 159.7 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_on_wide_canvas/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/3x3_on_wide_canvas/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.3s/it 0.4s<2.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.1it/s 0.5s
+                   all         40        360      0.946      0.889      0.955      0.955
+Speed: 0.5ms preprocess, 2.8ms inference, 0.0ms loss, 0.7ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '3x3_on_wide_canvas', 'mAP50': np.float64(0.955), 'mAP50_95': np.float64(0.955), 'images': 40, 'image_acc': 0.35, 'recall': 0.917, 'precision': 0.899}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_on_wide_canvas[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1957.0±475.0 MB/s, size: 108.7 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_partial/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/3x3_partial/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.2s/it 0.4s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.8it/s 0.4s
+                   all         40        256      0.973      0.952      0.983      0.982
+Speed: 0.9ms preprocess, 1.1ms inference, 0.0ms loss, 0.8ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '3x3_partial', 'mAP50': np.float64(0.983), 'mAP50_95': np.float64(0.982), 'images': 40, 'image_acc': 0.775, 'recall': 0.973, 'precision': 0.969}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_partial[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1249.4±328.2 MB/s, size: 52.1 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/2x2_partial/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/2x2_partial/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.2s/it 0.4s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.9it/s 0.4s
+                   all         40         98      0.916      0.969      0.995      0.987
+Speed: 0.9ms preprocess, 1.1ms inference, 0.0ms loss, 0.8ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '2x2_partial', 'mAP50': np.float64(0.995), 'mAP50_95': np.float64(0.987), 'images': 40, 'image_acc': 0.85, 'recall': 0.969, 'precision': 0.941}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/2x2_partial[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2260.8±425.9 MB/s, size: 133.8 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_jittered/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/3x3_jittered/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.2s/it 0.4s<2.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.6it/s 0.5s
+                   all         40        360      0.961      0.952      0.968      0.967
+Speed: 0.9ms preprocess, 1.1ms inference, 0.0ms loss, 0.8ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '3x3_jittered', 'mAP50': np.float64(0.968), 'mAP50_95': np.float64(0.967), 'images': 40, 'image_acc': 0.65, 'recall': 0.961, 'precision': 0.972}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_jittered[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 981.2±81.7 MB/s, size: 38.9 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_low_jpeg/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/3x3_low_jpeg/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.2s/it 0.4s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.7it/s 0.4s
+                   all         40        360      0.958      0.906       0.97       0.97
+Speed: 0.9ms preprocess, 1.0ms inference, 0.0ms loss, 0.8ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '3x3_low_jpeg', 'mAP50': np.float64(0.97), 'mAP50_95': np.float64(0.97), 'images': 40, 'image_acc': 0.475, 'recall': 0.933, 'precision': 0.946}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_low_jpeg[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2417.4±263.1 MB/s, size: 170.6 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/4x4_dense/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/4x4_dense/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.2s/it 0.4s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.8it/s 0.4s
+                   all         40        640      0.973      0.926      0.968      0.968
+Speed: 0.9ms preprocess, 1.1ms inference, 0.0ms loss, 0.8ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '4x4_dense', 'mAP50': np.float64(0.968), 'mAP50_95': np.float64(0.968), 'images': 40, 'image_acc': 0.35, 'recall': 0.959, 'precision': 0.949}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/4x4_dense[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 72 layers, 11,153,835 parameters, 0 gradients, 28.6 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1796.0±527.9 MB/s, size: 87.9 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/1x4_row/labels... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 1.1Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/data/stress/1x4_row/labels.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.0s/it 0.3s<2.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 7.7it/s 0.4s
+                   all         40        160      0.968      0.891      0.981      0.981
+Speed: 0.3ms preprocess, 2.5ms inference, 0.0ms loss, 0.6ms postprocess per image
+{'model': 'yolov8s_v2', 'scenario': '1x4_row', 'mAP50': np.float64(0.981), 'mAP50_95': np.float64(0.981), 'images': 40, 'image_acc': 0.75, 'recall': 0.956, 'precision': 0.944}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/1x4_row[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 3442.0±295.3 MB/s, size: 162.8 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_plain/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 12.0Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.4s/it 0.4s<2.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 5.5it/s 0.5s
+                   all         40        360       0.98       0.95      0.985      0.983
+Speed: 0.9ms preprocess, 3.1ms inference, 0.0ms loss, 0.6ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '3x3_plain', 'mAP50': np.float64(0.985), 'mAP50_95': np.float64(0.983), 'images': 40, 'image_acc': 0.6, 'recall': 0.969, 'precision': 0.946}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_plain[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2154.6±329.2 MB/s, size: 75.2 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/2x2_plain/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 12.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.2s/it 0.3s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.5it/s 0.5s
+                   all         40        160      0.954      0.968      0.992      0.992
+Speed: 0.9ms preprocess, 2.1ms inference, 0.0ms loss, 0.8ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '2x2_plain', 'mAP50': np.float64(0.992), 'mAP50_95': np.float64(0.992), 'images': 40, 'image_acc': 0.85, 'recall': 0.994, 'precision': 0.964}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/2x2_plain[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 3521.8±582.1 MB/s, size: 194.3 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_gap_white/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 12.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.3s/it 0.4s<2.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 5.9it/s 0.5s
+                   all         40        360      0.975      0.958      0.981      0.981
+Speed: 0.9ms preprocess, 2.1ms inference, 0.0ms loss, 0.7ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '3x3_gap_white', 'mAP50': np.float64(0.981), 'mAP50_95': np.float64(0.981), 'images': 40, 'image_acc': 0.75, 'recall': 0.983, 'precision': 0.965}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_gap_white[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 3554.4±508.6 MB/s, size: 177.7 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_gap_black/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 10.5Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.3s/it 0.4s<2.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 5.8it/s 0.5s
+                   all         40        360      0.977       0.97      0.985      0.959
+Speed: 1.0ms preprocess, 2.1ms inference, 0.0ms loss, 0.8ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '3x3_gap_black', 'mAP50': np.float64(0.985), 'mAP50_95': np.float64(0.959), 'images': 40, 'image_acc': 0.725, 'recall': 0.983, 'precision': 0.973}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_gap_black[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2299.8±306.1 MB/s, size: 88.4 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/2x2_gap_white/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 12.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.2s/it 0.3s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.4it/s 0.5s
+                   all         40        160      0.958      0.949      0.992      0.985
+Speed: 1.0ms preprocess, 2.1ms inference, 0.0ms loss, 0.7ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '2x2_gap_white', 'mAP50': np.float64(0.992), 'mAP50_95': np.float64(0.985), 'images': 40, 'image_acc': 0.75, 'recall': 0.981, 'precision': 0.929}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/2x2_gap_white[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1918.5±192.4 MB/s, size: 62.9 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_small_tiles/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 12.0Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.2s/it 0.4s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.4it/s 0.5s
+                   all         40        360       0.98       0.96       0.98       0.98
+Speed: 0.9ms preprocess, 2.1ms inference, 0.0ms loss, 0.7ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '3x3_small_tiles', 'mAP50': np.float64(0.98), 'mAP50_95': np.float64(0.98), 'images': 40, 'image_acc': 0.675, 'recall': 0.975, 'precision': 0.949}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_small_tiles[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 4015.0±411.0 MB/s, size: 279.0 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_large_tiles/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 21.0Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.4s/it 0.4s<2.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 5.7it/s 0.5s
+                   all         40        360       0.97      0.943      0.986      0.986
+Speed: 1.0ms preprocess, 2.1ms inference, 0.0ms loss, 0.9ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '3x3_large_tiles', 'mAP50': np.float64(0.986), 'mAP50_95': np.float64(0.986), 'images': 40, 'image_acc': 0.625, 'recall': 0.969, 'precision': 0.946}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_large_tiles[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 3010.4±674.3 MB/s, size: 137.8 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/2x2_large_tiles/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 12.0Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.2s/it 0.4s<2.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.3it/s 0.5s
+                   all         40        160      0.944      0.932      0.992      0.991
+Speed: 0.9ms preprocess, 2.1ms inference, 0.0ms loss, 0.7ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '2x2_large_tiles', 'mAP50': np.float64(0.992), 'mAP50_95': np.float64(0.991), 'images': 40, 'image_acc': 0.725, 'recall': 0.969, 'precision': 0.939}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/2x2_large_tiles[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 3007.9±428.7 MB/s, size: 139.1 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_on_640_canvas/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 12.0Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.2s/it 0.4s<2.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.3it/s 0.5s
+                   all         40        360      0.957      0.957      0.976      0.972
+Speed: 0.9ms preprocess, 2.1ms inference, 0.0ms loss, 0.7ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '3x3_on_640_canvas', 'mAP50': np.float64(0.976), 'mAP50_95': np.float64(0.972), 'images': 40, 'image_acc': 0.725, 'recall': 0.975, 'precision': 0.964}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_on_640_canvas[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 3303.4±413.5 MB/s, size: 161.1 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_on_wide_canvas/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 12.0Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.3s/it 0.4s<2.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.0it/s 0.5s
+                   all         40        360      0.914      0.919      0.971      0.971
+Speed: 0.5ms preprocess, 2.9ms inference, 0.0ms loss, 0.7ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '3x3_on_wide_canvas', 'mAP50': np.float64(0.971), 'mAP50_95': np.float64(0.971), 'images': 40, 'image_acc': 0.525, 'recall': 0.942, 'precision': 0.936}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_on_wide_canvas[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2713.2±490.3 MB/s, size: 118.2 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_partial/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 12.0Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.3s/it 0.4s<2.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.0it/s 0.5s
+                   all         40        256      0.973      0.963      0.981       0.98
+Speed: 1.0ms preprocess, 2.1ms inference, 0.0ms loss, 0.7ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '3x3_partial', 'mAP50': np.float64(0.981), 'mAP50_95': np.float64(0.98), 'images': 40, 'image_acc': 0.675, 'recall': 0.977, 'precision': 0.936}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_partial[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1390.0±275.1 MB/s, size: 39.8 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/2x2_partial/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 12.0Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.2s/it 0.4s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.5it/s 0.5s
+                   all         40         98      0.937       0.96      0.995      0.995
+Speed: 0.9ms preprocess, 2.1ms inference, 0.0ms loss, 0.7ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '2x2_partial', 'mAP50': np.float64(0.995), 'mAP50_95': np.float64(0.995), 'images': 40, 'image_acc': 0.875, 'recall': 0.98, 'precision': 0.941}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/2x2_partial[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2837.1±428.9 MB/s, size: 129.7 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_jittered/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 12.0Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.3s/it 0.4s<2.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.1it/s 0.5s
+                   all         40        360      0.946       0.97       0.98      0.977
+Speed: 0.9ms preprocess, 2.1ms inference, 0.0ms loss, 0.8ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '3x3_jittered', 'mAP50': np.float64(0.98), 'mAP50_95': np.float64(0.977), 'images': 40, 'image_acc': 0.75, 'recall': 0.983, 'precision': 0.973}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_jittered[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1348.3±181.7 MB/s, size: 39.0 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/3x3_low_jpeg/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 14.0Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.3s/it 0.4s<2.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 5.9it/s 0.5s
+                   all         40        360      0.931      0.926      0.968      0.968
+Speed: 1.0ms preprocess, 2.1ms inference, 0.0ms loss, 0.7ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '3x3_low_jpeg', 'mAP50': np.float64(0.968), 'mAP50_95': np.float64(0.968), 'images': 40, 'image_acc': 0.3, 'recall': 0.936, 'precision': 0.899}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_low_jpeg[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2727.8±622.4 MB/s, size: 164.1 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/4x4_dense/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 12.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.3s/it 0.4s<2.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 6.1it/s 0.5s
+                   all         40        640      0.977      0.957      0.981      0.981
+Speed: 1.0ms preprocess, 2.1ms inference, 0.0ms loss, 0.7ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '4x4_dense', 'mAP50': np.float64(0.981), 'mAP50_95': np.float64(0.981), 'images': 40, 'image_acc': 0.425, 'recall': 0.97, 'precision': 0.952}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/4x4_dense[0m
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2087.8±356.6 MB/s, size: 74.2 KB)
+[K[34m[1mval: [0mScanning /workspace/data/stress/1x4_row/labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 40/40 12.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 1/3 1.0s/it 0.3s<2.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 7.5it/s 0.4s
+                   all         40        160      0.935      0.965      0.995      0.995
+Speed: 0.2ms preprocess, 2.2ms inference, 0.0ms loss, 0.6ms postprocess per image
+{'model': 'yolov8m_v2', 'scenario': '1x4_row', 'mAP50': np.float64(0.995), 'mAP50_95': np.float64(0.995), 'images': 40, 'image_acc': 0.825, 'recall': 0.988, 'precision': 0.958}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/1x4_row[0m
+
+image accuracy (every object found with the right ID and box, nothing extra):
+model               yolov8m_v2  yolov8s_v2
+scenario                                  
+1x4_row                  0.825       0.750
+2x2_gap_white            0.750       0.700
+2x2_large_tiles          0.725       0.775
+2x2_partial              0.875       0.850
+2x2_plain                0.850       0.750
+3x3_gap_black            0.725       0.700
+3x3_gap_white            0.750       0.725
+3x3_jittered             0.750       0.650
+3x3_large_tiles          0.625       0.775
+3x3_low_jpeg             0.300       0.475
+3x3_on_640_canvas        0.725       0.700
+3x3_on_wide_canvas       0.525       0.350
+3x3_partial              0.675       0.775
+3x3_plain                0.600       0.600
+3x3_small_tiles          0.675       0.650
+4x4_dense                0.425       0.350
+
+object recall:
+model               yolov8m_v2  yolov8s_v2
+scenario                                  
+1x4_row                  0.988       0.956
+2x2_gap_white            0.981       0.956
+2x2_large_tiles          0.969       0.950
+2x2_partial              0.980       0.969
+2x2_plain                0.994       0.963
+3x3_gap_black            0.983       0.975
+3x3_gap_white            0.983       0.969
+3x3_jittered             0.983       0.961
+3x3_large_tiles          0.969       0.969
+3x3_low_jpeg             0.936       0.933
+3x3_on_640_canvas        0.975       0.967
+3x3_on_wide_canvas       0.942       0.917
+3x3_partial              0.977       0.973
+3x3_plain                0.969       0.961
+3x3_small_tiles          0.975       0.956
+4x4_dense                0.970       0.959

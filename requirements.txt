@@ -1,0 +1,12 @@
+torch
+torchvision
+numpy
+pandas
+pillow
+scikit-learn
+matplotlib
+tqdm
+optuna
+gdown
+
+ultralytics

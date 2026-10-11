@@ -1,0 +1,16 @@
+{
+  "name": "resnet50_trial11",
+  "model": "resnet50",
+  "params": 23657609,
+  "augment": true,
+  "epochs": 10,
+  "head_epochs": 0,
+  "lr": 0.001,
+  "ft_lr": 0.00044805529303566956,
+  "unfreeze": 1,
+  "weight_decay": 0.0001902216450150596,
+  "batch_size": 32,
+  "best_val_acc": 0.982725527831094,
+  "best_epoch": 7,
+  "train_minutes": 0.61
+}

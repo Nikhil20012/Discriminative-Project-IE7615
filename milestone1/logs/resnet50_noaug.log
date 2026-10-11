@@ -1,0 +1,22 @@
+[resnet50_noaug] device=cuda classes=73 params=23,657,609
+[resnet50_noaug] epoch 1/20 train_loss=2.1982 train_acc=0.6961 val_loss=1.0608 val_acc=0.8868
+[resnet50_noaug] epoch 2/20 train_loss=0.6104 train_acc=0.9566 val_loss=0.6560 val_acc=0.9213
+[resnet50_noaug] epoch 3/20 train_loss=0.3755 train_acc=0.9807 val_loss=0.5796 val_acc=0.9299
+[resnet50_noaug] epoch 4/20 train_loss=0.1253 train_acc=0.9759 val_loss=0.1085 val_acc=0.9712
+[resnet50_noaug] epoch 5/20 train_loss=0.0082 train_acc=0.9996 val_loss=0.0905 val_acc=0.9712
+[resnet50_noaug] epoch 6/20 train_loss=0.0025 train_acc=1.0000 val_loss=0.0870 val_acc=0.9712
+[resnet50_noaug] epoch 7/20 train_loss=0.0012 train_acc=1.0000 val_loss=0.0827 val_acc=0.9731
+[resnet50_noaug] epoch 8/20 train_loss=0.0008 train_acc=1.0000 val_loss=0.0792 val_acc=0.9750
+[resnet50_noaug] epoch 9/20 train_loss=0.0008 train_acc=1.0000 val_loss=0.0813 val_acc=0.9741
+[resnet50_noaug] epoch 10/20 train_loss=0.0005 train_acc=1.0000 val_loss=0.0785 val_acc=0.9750
+[resnet50_noaug] epoch 11/20 train_loss=0.0004 train_acc=1.0000 val_loss=0.0797 val_acc=0.9741
+[resnet50_noaug] epoch 12/20 train_loss=0.0003 train_acc=1.0000 val_loss=0.0772 val_acc=0.9760
+[resnet50_noaug] epoch 13/20 train_loss=0.0003 train_acc=1.0000 val_loss=0.0731 val_acc=0.9779
+[resnet50_noaug] epoch 14/20 train_loss=0.0003 train_acc=1.0000 val_loss=0.0761 val_acc=0.9741
+[resnet50_noaug] epoch 15/20 train_loss=0.0002 train_acc=1.0000 val_loss=0.0773 val_acc=0.9731
+[resnet50_noaug] epoch 16/20 train_loss=0.0003 train_acc=1.0000 val_loss=0.0779 val_acc=0.9741
+[resnet50_noaug] epoch 17/20 train_loss=0.0002 train_acc=1.0000 val_loss=0.0755 val_acc=0.9760
+[resnet50_noaug] epoch 18/20 train_loss=0.0002 train_acc=1.0000 val_loss=0.0760 val_acc=0.9750
+[resnet50_noaug] epoch 19/20 train_loss=0.0002 train_acc=1.0000 val_loss=0.0777 val_acc=0.9741
+[resnet50_noaug] epoch 20/20 train_loss=0.0002 train_acc=1.0000 val_loss=0.0766 val_acc=0.9731
+[resnet50_noaug] best val_acc=0.9779 at epoch 13, saved results/resnet50_noaug.pt

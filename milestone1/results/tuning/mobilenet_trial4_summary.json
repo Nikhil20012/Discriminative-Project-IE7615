@@ -1,0 +1,16 @@
+{
+  "name": "mobilenet_trial4",
+  "model": "mobilenet",
+  "params": 4295545,
+  "augment": true,
+  "epochs": 10,
+  "head_epochs": 0,
+  "lr": 0.001,
+  "ft_lr": 0.00016738085788752134,
+  "unfreeze": 4,
+  "weight_decay": 2.621087878265438e-05,
+  "batch_size": 64,
+  "best_val_acc": 0.9731285988483686,
+  "best_epoch": 10,
+  "train_minutes": 0.48
+}

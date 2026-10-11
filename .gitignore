@@ -1,0 +1,12 @@
+data/
+*.pt
+__pycache__/
+*.cache
+.DS_Store
+*.zip
+*.docx
+results_m2/
+!milestone1/DL report milestone 1.docx
+runs/
+.ipynb_checkpoints/
+*.docx

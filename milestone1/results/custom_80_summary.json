@@ -1,0 +1,16 @@
+{
+  "name": "custom_80",
+  "model": "custom",
+  "params": 407657,
+  "augment": true,
+  "epochs": 80,
+  "head_epochs": null,
+  "lr": 0.001,
+  "ft_lr": null,
+  "unfreeze": null,
+  "weight_decay": 0.0001,
+  "batch_size": 32,
+  "best_val_acc": 0.7859884836852208,
+  "best_epoch": 72,
+  "train_minutes": 3.54
+}

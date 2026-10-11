@@ -1,0 +1,85 @@
+Ultralytics 8.4.175 🚀 Python-3.12.14 torch-2.14.0+cu130 CUDA:0 (NVIDIA GeForce RTX 5090, 32109MiB)
+Model summary (fused): 92 layers, 25,882,027 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2088.2±532.9 MB/s, size: 104.0 KB)
+[K[34m[1mval: [0mScanning /workspace/data/multiobject/labels/test... 160 images, 0 backgrounds, 0 corrupt: 32% ━━━╸──────── 160/500 475.3it/s 0.1s<0.7s[K[34m[1mval: [0mScanning /workspace/data/multiobject/labels/test... 355 images, 0 backgrounds, 0 corrupt: 71% ━━━━━━━━╸─── 355/500 917.7it/s 0.2s<0.2s[K[34m[1mval: [0mScanning /workspace/data/multiobject/labels/test... 500 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 500/500 1.7Kit/s 0.3s
+[34m[1mval: [0mNew cache created: /workspace/data/multiobject/labels/test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 3% ──────────── 1/32 2.4s/it 0.7s<1:13[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 6% ╸─────────── 2/32 1.2it/s 1.1s<26.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 9% ━─────────── 3/32 1.7it/s 1.4s<17.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 12% ━─────────── 4/32 2.1it/s 1.7s<13.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 18% ━━────────── 6/32 5.2it/s 1.9s<5.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% ━━━───────── 8/32 7.3it/s 2.0s<3.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 31% ━━━╸──────── 10/32 7.9it/s 2.3s<2.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 37% ━━━━──────── 12/32 9.1it/s 2.4s<2.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 43% ━━━━━─────── 14/32 10.1it/s 2.6s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 16/32 10.7it/s 2.8s<1.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 56% ━━━━━━╸───── 18/32 10.2it/s 3.0s<1.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 62% ━━━━━━━───── 20/32 10.8it/s 3.1s<1.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% ━━━━━━━━──── 22/32 11.2it/s 3.3s<0.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 24/32 11.4it/s 3.5s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 81% ━━━━━━━━━╸── 26/32 10.9it/s 3.7s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 87% ━━━━━━━━━━── 28/32 11.3it/s 3.8s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 93% ━━━━━━━━━━━─ 30/32 11.6it/s 4.0s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 32/32 7.7it/s 4.1s
+                   all        500       3171      0.977      0.964      0.983      0.983
+                OBJ001         37         37      0.992          1      0.995      0.995
+                OBJ002         45         45      0.893      0.911      0.962      0.962
+                OBJ003         41         41      0.875      0.976      0.991      0.991
+                OBJ004         32         32          1      0.936      0.988      0.988
+                OBJ005         52         52      0.978          1      0.995      0.995
+                OBJ006         55         55      0.962          1      0.994      0.994
+                OBJ007         44         44          1       0.87      0.987      0.987
+                OBJ008         55         55      0.995          1      0.995      0.995
+                OBJ009         46         46      0.994          1      0.995      0.995
+                OBJ010         42         42      0.987      0.952      0.993      0.993
+                OBJ011         41         41      0.975          1      0.994      0.994
+                OBJ012         40         40      0.941      0.975      0.981      0.981
+                OBJ013         42         42      0.872       0.69      0.859      0.859
+                OBJ014         39         39      0.951      0.993      0.993      0.993
+                OBJ015         45         45      0.991          1      0.995      0.995
+                OBJ016         46         46      0.969      0.957      0.993      0.993
+                OBJ017         50         50       0.98       0.97      0.973      0.973
+                OBJ018         41         41          1      0.917      0.995      0.995
+                OBJ019         47         47      0.994          1      0.995      0.995
+                OBJ020         46         46          1      0.943      0.995      0.995
+                OBJ021         49         49      0.995          1      0.995      0.995
+                OBJ022         44         44      0.994          1      0.995      0.995
+                OBJ023         50         50      0.995          1      0.995      0.995
+                OBJ024         41         41       0.99          1      0.995      0.995
+                OBJ025         51         51      0.995          1      0.995      0.995
+                OBJ026         31         31          1      0.975      0.995      0.995
+                OBJ027         43         43      0.947      0.977       0.99       0.99
+                OBJ028         39         39      0.976          1      0.995      0.995
+                OBJ029         41         41      0.996          1      0.995      0.995
+                OBJ030         39         39      0.974      0.977      0.994      0.994
+                OBJ031         41         41          1      0.934      0.995      0.995
+                OBJ032         38         38      0.992          1      0.995      0.995
+                OBJ033         47         47          1      0.943      0.975      0.975
+                OBJ034         34         34      0.979      0.941      0.993      0.993
+                OBJ035         47         47      0.994          1      0.995      0.995
+                OBJ036         43         43      0.972      0.814      0.955      0.955
+                OBJ037         44         44      0.952      0.977      0.991      0.991
+                OBJ038         45         45          1      0.956      0.994      0.994
+                OBJ039         51         51       0.98          1      0.995      0.995
+                OBJ040         41         41      0.948          1      0.995      0.992
+                OBJ041         42         42      0.995          1      0.995      0.993
+                OBJ042         38         38          1      0.897      0.991      0.991
+                OBJ043         48         48      0.995          1      0.995      0.995
+                OBJ044         37         37      0.994          1      0.995      0.995
+                OBJ045         37         37          1      0.942      0.994      0.994
+                OBJ046         42         42          1      0.904      0.957      0.955
+                OBJ047         38         38      0.993          1      0.995      0.995
+                OBJ048         37         37          1      0.966      0.995      0.995
+                OBJ049         42         42      0.965      0.833      0.972      0.972
+                OBJ050         49         49          1      0.996      0.995      0.995
+                OBJ051         50         50          1      0.976      0.995      0.995
+                OBJ052         42         42      0.998      0.952      0.994      0.994
+                OBJ053         32         32      0.992          1      0.995      0.995
+                OBJ054         44         44      0.995      0.977      0.989      0.989
+                OBJ055         45         45          1      0.941      0.994      0.994
+                OBJ056         44         44      0.994          1      0.995      0.995
+                OBJ057         54         54          1      0.954      0.995      0.995
+                OBJ058         48         48      0.993      0.938      0.991      0.982
+                OBJ059         41         41      0.767      0.976      0.785      0.785
+                OBJ060         45         45          1      0.972      0.995      0.995
+                OBJ061         48         48       0.97      0.677      0.843      0.827
+                OBJ062         44         44      0.995          1      0.995      0.995
+                OBJ063         54         54      0.891      0.963      0.979      0.979
+                OBJ064         52         52      0.994          1      0.995      0.995
+                OBJ065         45         45      0.961          1      0.994      0.994
+                OBJ066         52         52      0.995          1      0.995      0.995
+                OBJ067         35         35      0.986          1      0.995      0.995
+                OBJ068         39         39      0.999      0.923      0.925      0.925
+                OBJ069         41         41      0.941          1      0.994      0.994
+                OBJ070         36         36      0.993          1      0.995      0.995
+                OBJ071         41         41      0.994          1      0.995      0.995
+                OBJ072         41         41      0.902          1      0.989      0.984
+                OBJ073         43         43      0.994          1      0.995      0.995
+Speed: 1.1ms preprocess, 2.6ms inference, 0.0ms loss, 1.0ms postprocess per image
+Results saved to [1m/workspace/runs/detect/results/eval_yolov8m_v2/all[0m
+[all] 500 images
+mAP50 0.9835 | mAP50-95 0.9830 | P 0.9770 | R 0.9640
+image-level: exact set match 0.784 | ID precision 0.964 | ID recall 0.976 (conf>=0.25)

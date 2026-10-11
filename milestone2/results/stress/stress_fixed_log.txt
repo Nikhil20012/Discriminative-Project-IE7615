@@ -1,0 +1,104 @@
+{'model': 'yolov8s_v2', 'scenario': '3x3_plain', 'images': 40, 'image_acc': 0.65, 'recall': 0.958, 'precision': 0.975}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_plain[0m
+{'model': 'yolov8s_v2', 'scenario': '2x2_plain', 'images': 40, 'image_acc': 0.825, 'recall': 0.956, 'precision': 0.968}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/2x2_plain[0m
+{'model': 'yolov8s_v2', 'scenario': '3x3_gap_white', 'images': 40, 'image_acc': 0.775, 'recall': 0.969, 'precision': 0.986}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_gap_white[0m
+{'model': 'yolov8s_v2', 'scenario': '3x3_gap_black', 'images': 40, 'image_acc': 0.775, 'recall': 0.975, 'precision': 0.989}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_gap_black[0m
+{'model': 'yolov8s_v2', 'scenario': '2x2_gap_white', 'images': 40, 'image_acc': 0.8, 'recall': 0.95, 'precision': 0.95}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/2x2_gap_white[0m
+{'model': 'yolov8s_v2', 'scenario': '3x3_small_tiles', 'images': 40, 'image_acc': 0.65, 'recall': 0.956, 'precision': 0.972}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_small_tiles[0m
+{'model': 'yolov8s_v2', 'scenario': '3x3_large_tiles', 'images': 40, 'image_acc': 0.8, 'recall': 0.969, 'precision': 0.98}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_large_tiles[0m
+{'model': 'yolov8s_v2', 'scenario': '2x2_large_tiles', 'images': 40, 'image_acc': 0.825, 'recall': 0.95, 'precision': 0.968}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/2x2_large_tiles[0m
+{'model': 'yolov8s_v2', 'scenario': '3x3_on_640_canvas', 'images': 40, 'image_acc': 0.75, 'recall': 0.964, 'precision': 0.977}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_on_640_canvas[0m
+{'model': 'yolov8s_v2', 'scenario': '3x3_on_wide_canvas', 'images': 40, 'image_acc': 0.425, 'recall': 0.906, 'precision': 0.942}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_on_wide_canvas[0m
+{'model': 'yolov8s_v2', 'scenario': '3x3_partial', 'images': 40, 'image_acc': 0.8, 'recall': 0.969, 'precision': 0.98}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_partial[0m
+{'model': 'yolov8s_v2', 'scenario': '2x2_partial', 'images': 40, 'image_acc': 0.9, 'recall': 0.959, 'precision': 0.969}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/2x2_partial[0m
+{'model': 'yolov8s_v2', 'scenario': '3x3_jittered', 'images': 40, 'image_acc': 0.675, 'recall': 0.958, 'precision': 0.977}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_jittered[0m
+{'model': 'yolov8s_v2', 'scenario': '3x3_low_jpeg', 'images': 40, 'image_acc': 0.55, 'recall': 0.931, 'precision': 0.963}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/3x3_low_jpeg[0m
+{'model': 'yolov8s_v2', 'scenario': '4x4_dense', 'images': 40, 'image_acc': 0.45, 'recall': 0.955, 'precision': 0.968}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/4x4_dense[0m
+{'model': 'yolov8s_v2', 'scenario': '1x4_row', 'images': 40, 'image_acc': 0.825, 'recall': 0.956, 'precision': 0.968}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8s_v2/1x4_row[0m
+{'model': 'yolov8m_v2', 'scenario': '3x3_plain', 'images': 40, 'image_acc': 0.725, 'recall': 0.964, 'precision': 0.975}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_plain[0m
+{'model': 'yolov8m_v2', 'scenario': '2x2_plain', 'images': 40, 'image_acc': 0.875, 'recall': 0.969, 'precision': 0.969}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/2x2_plain[0m
+{'model': 'yolov8m_v2', 'scenario': '3x3_gap_white', 'images': 40, 'image_acc': 0.875, 'recall': 0.983, 'precision': 0.992}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_gap_white[0m
+{'model': 'yolov8m_v2', 'scenario': '3x3_gap_black', 'images': 40, 'image_acc': 0.85, 'recall': 0.983, 'precision': 0.992}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_gap_black[0m
+{'model': 'yolov8m_v2', 'scenario': '2x2_gap_white', 'images': 40, 'image_acc': 0.9, 'recall': 0.975, 'precision': 0.975}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/2x2_gap_white[0m
+{'model': 'yolov8m_v2', 'scenario': '3x3_small_tiles', 'images': 40, 'image_acc': 0.7, 'recall': 0.961, 'precision': 0.972}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_small_tiles[0m
+{'model': 'yolov8m_v2', 'scenario': '3x3_large_tiles', 'images': 40, 'image_acc': 0.75, 'recall': 0.967, 'precision': 0.975}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_large_tiles[0m
+{'model': 'yolov8m_v2', 'scenario': '2x2_large_tiles', 'images': 40, 'image_acc': 0.825, 'recall': 0.956, 'precision': 0.975}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/2x2_large_tiles[0m
+{'model': 'yolov8m_v2', 'scenario': '3x3_on_640_canvas', 'images': 40, 'image_acc': 0.75, 'recall': 0.967, 'precision': 0.975}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_on_640_canvas[0m
+{'model': 'yolov8m_v2', 'scenario': '3x3_on_wide_canvas', 'images': 40, 'image_acc': 0.6, 'recall': 0.942, 'precision': 0.958}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_on_wide_canvas[0m
+{'model': 'yolov8m_v2', 'scenario': '3x3_partial', 'images': 40, 'image_acc': 0.75, 'recall': 0.957, 'precision': 0.961}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_partial[0m
+{'model': 'yolov8m_v2', 'scenario': '2x2_partial', 'images': 40, 'image_acc': 0.925, 'recall': 0.969, 'precision': 0.969}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/2x2_partial[0m
+{'model': 'yolov8m_v2', 'scenario': '3x3_jittered', 'images': 40, 'image_acc': 0.825, 'recall': 0.981, 'precision': 0.986}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_jittered[0m
+{'model': 'yolov8m_v2', 'scenario': '3x3_low_jpeg', 'images': 40, 'image_acc': 0.475, 'recall': 0.917, 'precision': 0.932}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/3x3_low_jpeg[0m
+{'model': 'yolov8m_v2', 'scenario': '4x4_dense', 'images': 40, 'image_acc': 0.525, 'recall': 0.964, 'precision': 0.976}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/4x4_dense[0m
+{'model': 'yolov8m_v2', 'scenario': '1x4_row', 'images': 40, 'image_acc': 0.925, 'recall': 0.981, 'precision': 0.981}
+Results saved to [1m/workspace/runs/detect/results/stress/examples/yolov8m_v2/1x4_row[0m
+
+image accuracy (every object found with the right ID and box, nothing extra):
+model               yolov8m_v2  yolov8s_v2
+scenario                                  
+1x4_row                  0.925       0.825
+2x2_gap_white            0.900       0.800
+2x2_large_tiles          0.825       0.825
+2x2_partial              0.925       0.900
+2x2_plain                0.875       0.825
+3x3_gap_black            0.850       0.775
+3x3_gap_white            0.875       0.775
+3x3_jittered             0.825       0.675
+3x3_large_tiles          0.750       0.800
+3x3_low_jpeg             0.475       0.550
+3x3_on_640_canvas        0.750       0.750
+3x3_on_wide_canvas       0.600       0.425
+3x3_partial              0.750       0.800
+3x3_plain                0.725       0.650
+3x3_small_tiles          0.700       0.650
+4x4_dense                0.525       0.450
+
+object recall:
+model               yolov8m_v2  yolov8s_v2
+scenario                                  
+1x4_row                  0.981       0.956
+2x2_gap_white            0.975       0.950
+2x2_large_tiles          0.956       0.950
+2x2_partial              0.969       0.959
+2x2_plain                0.969       0.956
+3x3_gap_black            0.983       0.975
+3x3_gap_white            0.983       0.969
+3x3_jittered             0.981       0.958
+3x3_large_tiles          0.967       0.969
+3x3_low_jpeg             0.917       0.931
+3x3_on_640_canvas        0.967       0.964
+3x3_on_wide_canvas       0.942       0.906
+3x3_partial              0.957       0.969
+3x3_plain                0.964       0.958
+3x3_small_tiles          0.961       0.956
+4x4_dense                0.964       0.955

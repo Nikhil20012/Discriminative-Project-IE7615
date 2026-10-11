@@ -1,0 +1,24 @@
+Downloading: "https://download.pytorch.org/models/resnet50-11ad3fa6.pth" to /root/.cache/torch/hub/checkpoints/resnet50-11ad3fa6.pth
+  0%|          | 0.00/97.8M [00:00<?, ?B/s] 12%|█▏        | 11.2M/97.8M [00:00<00:00, 117MB/s] 31%|███▏      | 30.8M/97.8M [00:00<00:00, 168MB/s] 72%|███████▏  | 70.5M/97.8M [00:00<00:00, 281MB/s]100%|██████████| 97.8M/97.8M [00:00<00:00, 277MB/s]
+[resnet50] device=cuda classes=73 params=23,657,609
+[resnet50] epoch 1/20 train_loss=2.3536 train_acc=0.6418 val_loss=1.3090 val_acc=0.8311
+[resnet50] epoch 2/20 train_loss=0.8175 train_acc=0.9198 val_loss=0.8475 val_acc=0.8810
+[resnet50] epoch 3/20 train_loss=0.5555 train_acc=0.9455 val_loss=0.7508 val_acc=0.9040
+[resnet50] epoch 4/20 train_loss=0.1939 train_acc=0.9605 val_loss=0.1290 val_acc=0.9702
+[resnet50] epoch 5/20 train_loss=0.0368 train_acc=0.9934 val_loss=0.0980 val_acc=0.9741
+[resnet50] epoch 6/20 train_loss=0.0182 train_acc=0.9965 val_loss=0.0959 val_acc=0.9741
+[resnet50] epoch 7/20 train_loss=0.0100 train_acc=0.9979 val_loss=0.0727 val_acc=0.9779
+[resnet50] epoch 8/20 train_loss=0.0075 train_acc=0.9984 val_loss=0.0660 val_acc=0.9818
+[resnet50] epoch 9/20 train_loss=0.0059 train_acc=0.9988 val_loss=0.0672 val_acc=0.9818
+[resnet50] epoch 10/20 train_loss=0.0045 train_acc=0.9994 val_loss=0.0682 val_acc=0.9798
+[resnet50] epoch 11/20 train_loss=0.0027 train_acc=0.9998 val_loss=0.0613 val_acc=0.9770
+[resnet50] epoch 12/20 train_loss=0.0023 train_acc=1.0000 val_loss=0.0630 val_acc=0.9837
+[resnet50] epoch 13/20 train_loss=0.0020 train_acc=0.9996 val_loss=0.0596 val_acc=0.9856
+[resnet50] epoch 14/20 train_loss=0.0022 train_acc=0.9992 val_loss=0.0611 val_acc=0.9808
+[resnet50] epoch 15/20 train_loss=0.0012 train_acc=1.0000 val_loss=0.0622 val_acc=0.9808
+[resnet50] epoch 16/20 train_loss=0.0010 train_acc=1.0000 val_loss=0.0596 val_acc=0.9846
+[resnet50] epoch 17/20 train_loss=0.0013 train_acc=0.9998 val_loss=0.0583 val_acc=0.9827
+[resnet50] epoch 18/20 train_loss=0.0013 train_acc=0.9998 val_loss=0.0627 val_acc=0.9808
+[resnet50] epoch 19/20 train_loss=0.0009 train_acc=0.9998 val_loss=0.0628 val_acc=0.9798
+[resnet50] epoch 20/20 train_loss=0.0014 train_acc=0.9998 val_loss=0.0611 val_acc=0.9808
+[resnet50] best val_acc=0.9856 at epoch 13, saved results/resnet50.pt
