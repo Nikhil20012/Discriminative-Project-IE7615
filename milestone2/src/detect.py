@@ -4,6 +4,18 @@ import os
 from PIL import Image
 from ultralytics import YOLO
 
+IMAGE_TYPES = (".jpg", ".jpeg", ".png", ".bmp", ".webp")
+
+
+def expand(paths):
+    files = []
+    for p in paths:
+        if os.path.isdir(p):
+            files += sorted(os.path.join(p, f) for f in os.listdir(p) if f.lower().endswith(IMAGE_TYPES))
+        else:
+            files.append(p)
+    return files
+
 
 def keep_best_per_class(r):
     best = {}
@@ -15,27 +27,35 @@ def keep_best_per_class(r):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("images", nargs="+")
+    p.add_argument("images", nargs="+", help="image files and/or folders of images")
     p.add_argument("--weights", default="results/detect/yolov8m_v2/weights/best.pt")
     p.add_argument("--conf", type=float, default=0.25)
+    p.add_argument("--imgsz", type=int, default=640)
     p.add_argument("--out", default="results/detect_preds")
     p.add_argument("--all_boxes", action="store_true", help="turn off the one-box-per-object cleanup")
     a = p.parse_args()
+
+    files = expand(a.images)
+    if not files:
+        raise SystemExit("No images found.")
     os.makedirs(a.out, exist_ok=True)
 
     model = YOLO(a.weights)
-    for r in model.predict(a.images, conf=a.conf, agnostic_nms=not a.all_boxes, stream=True, verbose=False):
+    for path in files:
+        r = model.predict(path, conf=a.conf, imgsz=a.imgsz, agnostic_nms=not a.all_boxes, verbose=False)[0]
         if not a.all_boxes and len(r.boxes):
             r = keep_best_per_class(r)
-        name = os.path.basename(r.path)
+        name = os.path.basename(path)
         Image.fromarray(r.plot()[..., ::-1]).save(os.path.join(a.out, name))
 
+        h = r.orig_shape[0]
+        row_height = max(h / 12, 1)
         dets = []
         for b in r.boxes:
             x1, y1, x2, y2 = (int(v) for v in b.xyxy[0].tolist())
-            dets.append((y1, x1, model.names[int(b.cls)], float(b.conf), (x1, y1, x2, y2)))
+            dets.append((round(y1 / row_height), x1, model.names[int(b.cls)], float(b.conf), (x1, y1, x2, y2)))
         print(f"{name}: {len(dets)} objects")
-        for _, _, obj, c, box in sorted(dets, key=lambda d: (round(d[0] / 50), d[1])):
+        for _, _, obj, c, box in sorted(dets, key=lambda d: (d[0], d[1])):
             print(f"  {obj}  conf={c:.2f}  box={box}")
 
 
